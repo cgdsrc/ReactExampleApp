@@ -1,0 +1,50 @@
+.MenuBar {
+    background-color: #00264d;
+}
+
+.Links {
+    margin-left: 30px;
+}
+
+.MenuBar .col-sm-2 h1 {
+    color: white;
+    padding: 10px 10px;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.MenuBar a {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100% !important;
+}
+
+.MenuBar a:hover {
+    background-color: whitesmoke;
+    color: #00264d;
+    text-decoration: none;
+}
+
+.MenuBar .av-input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 0.1rem;
+}
+
+.av-sign-out {
+    color: white;
+    padding: 20% 42.5%;
+}
+
+.av-sign-out:hover {
+    color: #00264d;
+    background-color: whitesmoke;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.Login {
+    width: 100%;
+
+    background-image: url("../images/wave.jpg"); 
+  
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+    
+    height: 100%;
+  }
+  
+  .av-card-img {
+    opacity: 0.9;
+  }
+  
+  .av-text-muted {
+    color: white !important;
+  }
+
+  .av-width {
+    max-width: 330px;
+    
+    padding: 15px;
+    margin: auto auto;
+    color: white;
+  }
+
+  .Loader-Form {
+    padding: 20%;
+  }
+  .av-width .btn:hover{
+    background-color: #314d47!important;
+  }
